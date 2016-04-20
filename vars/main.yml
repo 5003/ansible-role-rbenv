@@ -11,10 +11,10 @@ rbenv:
   install_dir: /usr/local/src/rbenv/
   ruby:
     make_opts: ""
-    install_versions: [2.2.4, 2.3.0]
-    global: 2.3.0
+    install_versions: 2.2.4
+    global: 2.2.4
     local:
       2.2.4: /srv/
   gem:
     bundler:
-      version: present
+      version: 1.7.2
